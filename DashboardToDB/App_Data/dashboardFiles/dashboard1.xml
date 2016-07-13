@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="zh-TW">
+  <Title Text="Dashboard" />
+  <DataSources>
+    <SqlDataSource ComponentName="sqlDataSource1">
+      <Connection Name="connection" ProviderKey="Access2007">
+        <Parameters>
+          <Parameter Name="database" Value="d:\users\ianliu\documents\visual studio 2015\Projects\DashboardToDB\DashboardToDB\App_Data\nwind.accdb" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+        </Parameters>
+      </Connection>
+      <Query Type="CustomSqlQuery" Name="自訂的查詢一">
+          <Sql>select * from Employees</Sql>
+        </Query>
+      <Name>MS Access 2016 資料庫 新版</Name>
+    </SqlDataSource>
+  </DataSources>
+  
+  
+  
+  
+  
+</Dashboard>
